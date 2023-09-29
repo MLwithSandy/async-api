@@ -16,5 +16,11 @@ kubectl run -it --rm --image=mysql:8.0 --restart=Never mysql-client -- mysql -h 
 https://minikube.sigs.k8s.io/docs/start/
 https://kubernetes.io/docs/tutorials/hello-minikube/
 
-## minikube dashboard command:
-minikube dashboard
+## minikube commands:
+- minikube dashboard
+- minikube start
+- minikube stop
+- minikube delete
+- minikube status
+- minikube service <service-name> --url
+- minikube service <service-name> --url --namespace <namespace-name>
